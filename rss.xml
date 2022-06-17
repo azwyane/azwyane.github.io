@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title></title>
         <link>undefined</link>
         <description>undefined</description>
-        <lastBuildDate>Tue, 14 Jun 2022 14:26:47 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 17 Jun 2022 12:23:10 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>Joplin Pages Publisher</generator>
+        <item>
+            <title><![CDATA[The Beginning]]></title>
+            <guid>9039f9c9c2e84652a9e66e1ce38b94e2</guid>
+            <pubDate>Tue, 14 Jun 2022 14:19:48 GMT</pubDate>
+            <content:encoded><![CDATA[<blockquote>
+<p>Writing is a tough challenge</p>
+</blockquote>
+<p>So, finally I am pushing myself for the exploration of writing world, I always had a dream when finally I would sit down and pour my knowledge digitally.</p>
+<p>Had just played around with webDav and I found Joplin, I couldn’t love more …</p>
+<p>Set up my GitHub pages and I am ready to fire.</p>
+<p>Here I come…</p>
+]]></content:encoded>
+        </item>
     </channel>
 </rss>
