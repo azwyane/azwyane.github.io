@@ -24,8 +24,8 @@
                 ></span
               >
               <span
-                >Updated At：<time datetime="1656044911835"
-                  >2022-06-24 10:13</time
+                >Updated At：<time datetime="1656085748247"
+                  >2022-06-24 21:34</time
                 ></span
               >
             </div>
@@ -48,11 +48,10 @@
 <h2 id="abstract"><strong>Abstract</strong></h2>
 <p>Intrusions in network refers to all those anomalous/undesirable activities that affects the CIA’s of the security for the intention of stealing, altering data and system that serves the desire of the attacker of bringing the service down. With our heavy dependence over internet technologies, we are living in the age of inter networked digital life but along with such advancements we’re are at a constant risk in terms of security and our privacy. The attacks include DoS, DDoS, Phishing and many more, they are varied and are always changing and more sophisticated. Still at present day DoS has been a major issue for big companies serving their business online. We at our defense side must be smart enough and deal with changing patterns and detect them as early as possible.</p>
 <p>This article tries to introduced machine learning approach on detecting those intrusive patterns, taking data-set reference from CICIDS2017. Where we first capture the network traffic flow in the form of .pcap files, then process it into a well structured format of data using CIC-flow-meter. We try to infer the patterns that separates benign from intrusive ones. From the analysis, it is obtained that machine learning approaches could be one of the layer for security purpose rather than supplementing signature based IDS wholly.</p>
-<p>Keywords: IDS(Intrusion Detection System), IPS(Intrusion Prevention System), FP(False Positive), FN(False Negative), Benign, Intrusions,</p>
-<p>Nftables</p>
+<p>Keywords: IDS(Intrusion Detection System), IPS(Intrusion Prevention System), FP(False Positive), FN(False Negative), Benign, Intrusions,Nftables</p>
 <h2 id="introduction"><strong>Introduction</strong></h2>
 <p>Using rule based system to analyze the network flow and detect the anomalies/intrusions based on their signatures stored on the database only isn’t an effective way to detect the network intrusions early for new type of intrusions that the database doesn’t consists of. We are living in the digital age where our entire business today is heavily dependent on. While having perks, we also have risks associated with it such as DoS, DDoS, Botnet, etc and many undiscovered attacks. So we want to realize such a system which learns patterns from network flows and discriminate them as desired. For that purpose we build a machine learning model based on CICIDS2017 and use a flowmeter to listen and dump packets into structured form. Then for training purpose utilize <a title="https://imbalanced-learn.org" href="https://imbalanced-learn.org">smote</a> to balance the imblanced datset then apply pca for dimension reduction and finally use random forest classifier to create a model from these data. After inferring the model with testing data we achieved a astonishing result that implies that is can classify the unseen network flows consisting of benign and intrusive network flows pretty well. This brings us to implementing such a system which now can create firewall rules based on these predictions in order to block them from harming the system. It utilizes the batch processing of each captured flow and outputs the corresponding predictions.</p>
-<p><strong>Objectives</strong></p>
+<h2 id="objectives"><strong>Objectives</strong></h2>
 <ol>
 <li>Apply Machine learning approach to build an intrusion detection system</li>
 </ol>
